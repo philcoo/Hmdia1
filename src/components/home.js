@@ -17,7 +17,7 @@ import {Link} from "react-router-dom"
           <h2 className="trending" >Trend/Sak-Sho</h2>
 
           {/* shows grid here, these are the trending events*/}
-    <Grid className="home-trend" style={{width: '80%'}}>
+    <Grid className="home-trend" style={{width:'100%'}}>
         <Cell col={3}><img src="jessie1.jpg"/></Cell>
         <Cell col={3}><img src="jean.jpg"/></Cell>
         <Cell col={3}>
