@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
     return(
       <div className="home-grid" style={{width:'100%', margin: 'auto'}}>
 
-          <img src="dadmcd.jpg"/>
+          <img src="successmom.jpg"/>
 
         <div>
 
