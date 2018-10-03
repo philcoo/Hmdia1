@@ -19,9 +19,9 @@ import {Link} from "react-router-dom"
           {/* shows grid here, these are the trending events*/}
     <Grid className="home-trend" style={{width: '80%'}}>
         <Cell col={3}><img src="jessie1.jpg"/></Cell>
-        <Cell col={3}><img src="brikem.png"/></Cell>
+        <Cell col={3}><img src="jean.jpg"/></Cell>
         <Cell col={3}>
-          <Link to="./show1"> <img src="dadmcd.jpg"/> </Link>
+          <Link to="./show1"> <img src="jessie1.jpg"/> </Link>
        </Cell>
 
           <Cell col={3}><img src="sejo.jpg"/></Cell>
