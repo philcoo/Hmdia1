@@ -81,6 +81,10 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 }
 @media only screen and (max-width: 600px)  {
+  .home-grid img{
+    width:100%;
+    height:567px; 
+  }
 .show1-mainbanner img{
   width: 100%;
   margin: -12px 5px;
