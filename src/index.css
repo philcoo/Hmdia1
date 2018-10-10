@@ -93,13 +93,10 @@ width: 80%;
   }
 
   .home-trend {
-  width: 80;
-   height: 33.5%;
-
+   height: 45%;
    flex-direction: row;
    flex-wrap: wrap;
    padding: 5px;
-   margin-bottom: 45px;
   }
  .container{
     width: 80%;
