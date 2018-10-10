@@ -20,9 +20,7 @@ import {Link} from "react-router-dom";
                       <Cell className="trenditem" >
                         <Link to="./show1"> <img src="jonas.png"/> </Link>
                      </Cell>
-                     <Cell className="trenditem" >
-                       <Link to="./show1"> <img src="sejo.jpg"/> </Link>
-                    </Cell>
+
           </Grid>
           <Grid className="home-trend">
                       <Cell className="trenditem" >
@@ -35,6 +33,9 @@ import {Link} from "react-router-dom";
                      <Cell className="trenditem" >
                        <Link to="./show1"> <img src="sejo.jpg"/> </Link>
                     </Cell>
+                    <Cell className="trenditem" >
+                      <Link to="./show1"> <img src="sejo.jpg"/> </Link>
+                   </Cell>
           </Grid>
 
           <div className="footr">
