@@ -7,31 +7,40 @@ import {Link} from "react-router-dom";
 
 
       <div className="home-grid" style={{width:'100%', margin: 'auto'}}>
-          <img src="successmom.jpg"/>
+          <img src="laugh.png"/>
+
           {/* trending content*/}
            <h2 className="trending" >Trend/Sak-Sho</h2>
               {/* shows grid here, these are the trending events*/}
-          <Grid className="home-trend" style={{width:'100%', margin: 'auto'}}>
+          <Grid className="home-trend">
                       <Cell className="trenditem" >
                         <img src="guy.jpg"/>
-                        
+
                       </Cell>
-
                       <Cell className="trenditem" >
-                        <Link to="./show1"> <img src="jean.jpg"/> </Link>
+                        <Link to="./show1"> <img src="jonas.png"/> </Link>
                      </Cell>
-
                      <Cell className="trenditem" >
                        <Link to="./show1"> <img src="sejo.jpg"/> </Link>
-
                     </Cell>
-
-
-                    <Cell className="trenditem" >
-                      <Link to="./show1"> <img src="jessie1.jpg"/> </Link>
-
-                   </Cell>
           </Grid>
+          <Grid className="home-trend">
+                      <Cell className="trenditem" >
+                        <img src="rihanna.png"/>
+
+                      </Cell>
+                      <Cell className="trenditem" >
+                        <Link to="./show1"> <img src="jonas.png"/> </Link>
+                     </Cell>
+                     <Cell className="trenditem" >
+                       <Link to="./show1"> <img src="sejo.jpg"/> </Link>
+                    </Cell>
+          </Grid>
+
+          <div className="footr">
+          <p>Haitian A. Production, Copyright &copy; 2018 </p>
+          </div>
+
       </div>
     );
   };
